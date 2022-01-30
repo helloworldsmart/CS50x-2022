@@ -3,7 +3,7 @@
 
 int main(void)
 {
-  int first_number = get_int("x: ");
-  int second_number = get_int("y: ");
+  long first_number = get_int("x: ");
+  long second_number = get_int("y: ");
   printf("%i\n", first_number + second_number);
 }
